@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+
+body{
+    background-color: hsl(0,0%,95%);
+    font-size: 15px;
+    line-height: 1.6;
+}
+h1,p{
+    display: inline;
+}
+
+.car-model{
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: hsl(0,0%,95%);  
+    font-weight: 700px;
+    position:relative;
+    right:15px; 
+    font-size: 40px;
+}
+div{
+    margin:auto;
+}
+.container{
+    width: 1000px;
+    height:500px;
+    position: relative;
+    top:150px;  
+    border-radius: 12px;
+}
+.a{
+    background-color: hsl(31,77%,52%);
+    width:33%;
+    height: 100%;
+    float:left;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+
+
+}
+.b{
+    background-color: hsl(184,100%,22%);
+    width:33%;
+    height: 100%;
+    right:10px;
+    position: relative;
+    right:10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.c{
+    background: hsl(179,100%,13%);
+    width:33%;
+    height: 100%;
+    float: right;
+    position: relative;
+    bottom: 500px;
+    right:20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.sedans-img,.suvs-img,.luxury-img{
+    position: relative;
+    left:50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sedans-img{
+    position: relative;
+    left:10px;
+}
+.car-desc{
+    color:hsla(0,0%,100%,0.75);
+    font-family: "Lexend Deca",sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+    position:relative;
+    right:20px;
+    top:-20px;
+    float:right;
+}
+p.car-desc.s{
+    position:relative;
+    right:75px;
+}
+h1.car-model.ss{
+    font-size: 40px;
+    position:relative;
+    right: 50px;
+    top:15px;
+
+}
+.sedans{
+    position:relative;
+    left:-100px ;
+    float:right;
+    text-align: left;
+}
+.model-b-button,.model-c-button,.model-a-button{
+    border-radius: 100px;
+    width:125px;
+    height:40px;
+    color:hsl(184, 100%, 22%);
+}
+.model-a-button{
+    position:Relative;
+    top:285px;
+    right:145px;
+    border-color: unset;
+}
+.model-b-button{ 
+    position:relative;
+    top:280px;
+    left:-90px;
+    border-color: unset;
+
+}
+.model-c-button{
+    position:relative;
+    top:280px;
+    right:110px;
+    border-color: unset;
+
+}
+.model-b-button:hover{
+    background: hsl(184, 100%, 22%);
+    color: white;
+    border-color: white;
+}
+.model-c-button:hover{
+    background:hsl(179, 100%, 13%);
+    color: white;
+    border-color: white;
+
+}
+.model-a-button:hover{
+    background:hsl(31, 77%, 52%);
+    color:White;
+    border-color:white;
+
+}
+.attribution{
+    position:Relative;
+    top:150px;
+}
